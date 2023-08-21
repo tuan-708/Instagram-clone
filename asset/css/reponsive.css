@@ -1,0 +1,86 @@
+/* Mobile & tablet  */
+@media(max-width: 1023px){
+
+}
+
+/* Tablet */
+@media(min-width: 740px) and (max-width:1023px){
+    .content_right{
+        display: none;
+    }
+    
+    .content_left{
+        max-width: var(--widthcontentleft);
+        padding: 0px;
+        margin: 0px auto;
+    }
+
+    .content_left .icon_NextHistory{
+        right: 10px
+    }
+
+    .box_optionUser{
+        width: 215px;
+    }
+
+    .box_optionUser::after{
+        right: 9%;
+    }
+}
+
+/* Mobile */
+@media(max-width: 739px){
+    .mainContent{
+        max-width: var(--widthcontentleft);
+        padding: 0px;
+        margin: 0px auto;
+        width: 100%;
+    }
+
+    .content_right{
+        display: none;
+    }
+
+    .content_left{
+        padding: 0;
+    }
+
+    .content_left .icon_NextHistory{
+        right: 5px
+    }
+    
+
+    /* css header mobile */
+    .hearder_contentSearch{
+        display: none;
+    }
+
+    .header_content_iconIg_a{
+        font-size: 21px;
+    }
+
+    .header_boxListIcon{
+        padding-left: 0px;
+    }
+
+    .header_boxListIcon .iconHome,.iconMessenger,.iconAddPost,.iconCompass,.iconHeart{
+        padding-left: 15px;
+    }
+
+    .header_boxListIcon .iconAvatar{
+        margin-left: 15px;
+    }
+
+    .header_content{
+        max-width: 340px;
+    }
+
+    .box_optionUser{
+        width: 200px;
+        left: -135px;
+    }
+    .modalPost_content{
+        width: 300px;
+        height: 450px;
+    }
+}
